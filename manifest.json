@@ -20,7 +20,7 @@
     "extension_pages": "script-src 'self'; object-src 'self'"
   },
   "author": "Silent Password Team",
-  "homepage_url": "https://github.com/username/silent-password",
+  "homepage_url": "https://github.com/tebiiee/silentpassword",
   "icons": {
     "16": "assets/icons/icon16.png",
     "32": "assets/icons/icon32.png",

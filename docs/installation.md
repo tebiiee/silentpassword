@@ -18,11 +18,11 @@ La forma más fácil y segura de instalar Silent Password es a través de la Chr
 Si prefieres instalar la extensión directamente desde el código fuente:
 
 1. **Descarga el archivo ZIP o clona el repositorio**
-   - Opción A: Descarga el [archivo ZIP](https://github.com/username/silent-password/releases/latest) 
+   - Opción A: Descarga el [archivo ZIP](https://github.com/tebiiee/silentpassword/releases/latest) 
      y descomprímelo en una carpeta de tu elección
    - Opción B: Clona el repositorio usando Git:
      ```
-     git clone https://github.com/username/silent-password.git
+     git clone https://github.com/tebiiee/silentpassword.git
      ```
 
 2. **Abre la página de extensiones de Chrome**
@@ -71,7 +71,7 @@ Si instalaste la extensión manualmente y deseas actualizarla a una nueva versi�
 
 Si tienes problemas con la instalación o uso de Silent Password, puedes:
 
-- Abrir un [issue en GitHub](https://github.com/username/silent-password/issues)
+- Abrir un [issue en GitHub](https://github.com/tebiiee/silentpassword/issues)
 - Contactarnos por correo electrónico a [contact@silentpassword.dev](mailto:contact@silentpassword.dev)
 
 ---

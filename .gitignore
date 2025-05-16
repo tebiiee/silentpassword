@@ -6,6 +6,11 @@ Thumbs.db
 node_modules/
 dist/
 
+# Archivos específicos que no quiero subir a GitHub
+docs/requirements.md
+docs/icon.png
+assets/icons/fixed/
+
 # Archivos temporales
 *.log
 npm-debug.log*

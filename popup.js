@@ -452,6 +452,6 @@ document.addEventListener('DOMContentLoaded', async () => {
   });
   
   infoButton.addEventListener('click', () => {
-    chrome.tabs.create({ url: 'https://silentpassword.github.io/privacy.html' });
+    chrome.tabs.create({ url: 'https://tebiiee.github.io/silentpassword/docs/privacy.html' });
   });
 });
