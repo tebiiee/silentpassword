@@ -1,0 +1,30 @@
+{
+  "manifest_version": 3,
+  "name": "Silent Password",
+  "version": "1.0.0",
+  "description": "Your easy-to-use, secure password generator directly in your browser. Generate strong, random passwords with configurable length and character types. Features quick copy, saves preferences, and supports themes. Uses cryptographically secure random values and never stores generated passwords.",
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "assets/icons/icon16.png",
+      "32": "assets/icons/icon32.png",
+      "48": "assets/icons/icon48.png",
+      "128": "assets/icons/icon128.png"
+    }
+  },
+  "permissions": [
+    "storage",
+    "clipboardWrite"
+  ],
+  "content_security_policy": {
+    "extension_pages": "script-src 'self'; object-src 'self'"
+  },
+  "author": "Silent Password Team",
+  "homepage_url": "https://github.com/username/silent-password",
+  "icons": {
+    "16": "assets/icons/icon16.png",
+    "32": "assets/icons/icon32.png",
+    "48": "assets/icons/icon48.png",
+    "128": "assets/icons/icon128.png"
+  }
+}

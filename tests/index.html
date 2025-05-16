@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <title>Silent Password Tests</title>
+  <link rel="stylesheet" href="https://unpkg.com/mocha/mocha.css">
+</head>
+<body>
+  <div id="mocha"></div>
+
+  <!-- Añadir librerías de tests -->
+  <script src="https://unpkg.com/chai/chai.js"></script>
+  <script src="https://unpkg.com/mocha/mocha.js"></script>
+  
+  <!-- Configurar Mocha -->
+  <script>
+    mocha.setup('bdd');
+    mocha.checkLeaks();
+  </script>
+  
+  <!-- Cargar archivo de tests -->
+  <script src="test.js"></script>
+  
+  <!-- Ejecutar los tests -->
+  <script>
+    window.onload = function() {
+      mocha.run();
+    };
+  </script>
+</body>
+</html> 

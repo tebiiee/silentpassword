@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Privacidad y Términos - Silent Password</title>
+  <style>
+    :root {
+      --bg-primary: #ffffff;
+      --text-primary: #111827;
+      --text-secondary: #4b5563;
+      --accent: #4f46e5;
+      --border: #e5e7eb;
+    }
+    
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg-primary: #111827;
+        --text-primary: #f9fafb;
+        --text-secondary: #e5e7eb;
+        --accent: #818cf8;
+        --border: #374151;
+      }
+    }
+    
+    body {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      line-height: 1.6;
+      color: var(--text-primary);
+      background-color: var(--bg-primary);
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 2rem;
+    }
+    
+    h1, h2, h3 {
+      color: var(--text-primary);
+    }
+    
+    h1 {
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 0.5rem;
+      margin-bottom: 2rem;
+    }
+    
+    h2 {
+      margin-top: 2rem;
+      margin-bottom: 1rem;
+    }
+    
+    p, ul, li {
+      color: var(--text-secondary);
+      margin-bottom: 1rem;
+    }
+    
+    a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+    
+    a:hover {
+      text-decoration: underline;
+    }
+    
+    .section {
+      margin-bottom: 3rem;
+    }
+  </style>
+</head>
+<body>
+  <h1>Privacidad y Términos de Silent Password</h1>
+  
+  <div class="section">
+    <h2>Política de Privacidad</h2>
+    <p>Última actualización: Mayo 2025</p>
+    
+    <h3>Información que recopilamos</h3>
+    <p>Silent Password <strong>no recolecta ni transmite ningún dato personal</strong>. Valoramos tu privacidad y hemos diseñado la extensión para funcionar completamente de manera local en tu navegador.</p>
+    
+    <h3>Almacenamiento local</h3>
+    <p>Silent Password guarda tus preferencias (como la longitud de contraseña preferida, opciones de caracteres, idioma y tema) localmente en tu navegador utilizando chrome.storage.local. Esta información nunca sale de tu dispositivo y se utiliza exclusivamente para mejorar tu experiencia de usuario.</p>
+    
+    <h3>Contraseñas generadas</h3>
+    <p>Todas las contraseñas se generan localmente utilizando la API de Crypto segura. Las contraseñas generadas <strong>no se almacenan ni se transmiten</strong> a ningún servidor remoto en ningún momento.</p>
+    
+    <h3>Uso del portapapeles</h3>
+    <p>Cuando copias una contraseña, esta se guarda temporalmente en el portapapeles de tu sistema. Por razones de seguridad, Silent Password limpia automáticamente el portapapeles después de 60 segundos si detecta que la contraseña copiada sigue allí.</p>
+  </div>
+  
+  <div class="section">
+    <h2>Términos de Uso</h2>
+    <p>Al utilizar Silent Password, aceptas los siguientes términos:</p>
+    
+    <h3>Licencia</h3>
+    <p>Silent Password se distribuye bajo la licencia MIT. Eres libre de utilizar, modificar y distribuir la extensión, siempre que se mantenga la atribución original.</p>
+    
+    <h3>Uso y limitaciones</h3>
+    <ul>
+      <li>La extensión está diseñada únicamente para generar contraseñas aleatorias.</li>
+      <li>No ofrecemos garantías sobre la seguridad absoluta de las contraseñas generadas, aunque utilizamos métodos criptográficamente seguros para su generación.</li>
+      <li>Silent Password no es un gestor de contraseñas y no almacena las contraseñas que generas.</li>
+    </ul>
+    
+    <h3>Responsabilidad</h3>
+    <p>El uso de Silent Password es bajo tu propia responsabilidad. No nos hacemos responsables de ninguna pérdida o daño que pueda resultar del uso de las contraseñas generadas por esta extensión.</p>
+  </div>
+  
+  <div class="section">
+    <h2>Contacto</h2>
+    <p>Si tienes preguntas o inquietudes sobre esta política de privacidad o los términos de uso, no dudes en contactarnos en <a href="mailto:contact@silentpassword.dev">contact@silentpassword.dev</a>.</p>
+  </div>
+  
+  <footer>
+    <p>© 2025 Silent Password. Todos los derechos reservados.</p>
+  </footer>
+</body>
+</html> 
