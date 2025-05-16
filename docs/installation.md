@@ -72,7 +72,7 @@ Si instalaste la extensión manualmente y deseas actualizarla a una nueva versi�
 Si tienes problemas con la instalación o uso de Silent Password, puedes:
 
 - Abrir un [issue en GitHub](https://github.com/tebiiee/silentpassword/issues)
-- Contactarnos por correo electrónico a [contact@silentpassword.dev](mailto:contact@silentpassword.dev)
+- Contactarnos por correo electrónico a [tebiiee@silentpassword.com](mailto:tebiiee@silentpassword.com)
 
 ---
 
